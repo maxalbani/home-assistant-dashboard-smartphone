@@ -1,0 +1,12 @@
+kiosk_mode:
+  user_settings:
+    - users:
+        - cellulare
+      # hide_sidebar: true
+      # hide_header: true
+      hide_overflow: true
+
+button_card_templates: !include smartphone/button_card_templates.yaml
+
+views:
+  !include_dir_merge_list smartphone/views/                                                                 
